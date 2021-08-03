@@ -1,2 +1,3 @@
 # cdi-example2
-Segundo ejemplo de CDI
+
+Proyecto ejemplo para convertirlo a CDI
