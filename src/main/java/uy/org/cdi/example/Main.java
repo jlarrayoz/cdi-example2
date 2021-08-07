@@ -6,5 +6,17 @@ public class Main {
 		BookService service = new BookService();
 		Book book = service.createBook("Java EE7", 500f, "Curso JEE 7 BSE");
 		System.out.println(book);
+
+		/*
+		  //Inicializar CDI
+		  Weld weld = new Weld();
+    	  WeldContainer container = weld.initialize();
+
+		  //Obtener un bean (Dispara las inyecciones)
+    	  BookService bookService = container.instance().select(SERVICE.CLASS).get();
+
+		  //Bajar CDI
+    	  weld.shutdown();
+		 */
 	}
 }

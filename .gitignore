@@ -1,5 +1,9 @@
 /target/
 
+#especificos para el proyecto de idea
+/.idea/
+/cdi-example2.iml
+
 #especificos para el proyecto de eclipse
 .project
 .classpath
