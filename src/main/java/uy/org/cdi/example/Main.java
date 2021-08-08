@@ -10,10 +10,10 @@ public class Main {
 		/*
 		  //Inicializar CDI
 		  Weld weld = new Weld();
-    	  WeldContainer container = weld.initialize();
+    	  	  WeldContainer container = weld.initialize();
 
 		  //Obtener un bean (Dispara las inyecciones)
-    	  BookService bookService = container.instance().select(SERVICE.CLASS).get();
+		BookService bookService = container.getBeanManager().createInstance().select(SERVICE.CLASS).get();
 
 		  //Bajar CDI
     	  weld.shutdown();
